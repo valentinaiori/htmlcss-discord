@@ -1,0 +1,76 @@
+/* generics */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+*body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* content */
+
+
+/* HEADER */
+
+header{
+    background-color: #3161e0;
+    color: white;
+    background-image: url(/img/jumbo.png);
+}
+
+.top-header{
+    padding: 10px;
+}
+
+.jumbo-tron{
+    text-align: center;
+}
+
+.jumbo-tron-container{
+    max-width: 800px;
+    margin: 75px auto;
+}
+
+
+
+
+
+/* MAIN */
+
+
+
+
+/*FOOTER */
+
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
+
+
+
+/* DEBUG */
+
+.debug header{
+    height:100px;
+}
+
+.debug main{
+    height: 500px;
+}
+
+
+.debug footer{
+    height: 600px;
+}
+
