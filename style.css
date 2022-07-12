@@ -121,9 +121,9 @@ h2{
 }
 
 .text-section2{
-    padding-right: 400px;
-    margin-top: 200px;
-    padding-right: 300px;
+    padding-right: 100px;
+    margin-top: 150px;
+    padding-left: 150px;
 }
 
 #fandom{
@@ -182,5 +182,34 @@ footer{
     height: 600px;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: row;
+}
 
 
+.footer-actions{
+    flex-basis: calc(25% - 20px);
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a{
+    color: white;
+}
+
+
+.title{
+    font-size: 1.7rem;
+    color: mediumpurple;
+    padding-top: 50px;
+}
+
+
+#social-links{
+    font-size: 0.9;
+    color: mediumpurple;
+}
