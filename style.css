@@ -6,10 +6,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
-*body{
+body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    line-height: 1.6rem;
+    line-height: 1.4rem;
 }
 
 .container{
@@ -109,6 +109,21 @@ h1{
 
 /* MAIN */
 
+ main svg{
+    color: #f6f6f6;
+    display: block;
+}
+
+.even{
+    display: block;
+    background-color: #f6f6f6;
+    color: white;
+}
+
+h2{
+    line-height: 1.0;
+}
+
 .img-section1 .img-section2{
     display: inline-block;  
     height: 100px;
@@ -124,10 +139,11 @@ h1{
 .text-section1{
     padding-left: 200px;
     padding-right: 100px;
+    padding-top: 35px;
 }
 
 #voice-connected{
-    background-color: lightgray;
+    background-color: #f6f6f6;
     height: 600px;
 }
 
@@ -139,7 +155,7 @@ h2{
 
 .text-section2{
     padding-right: 100px;
-    margin-top: 150px;
+    padding-top: 80px;
     padding-left: 150px;
 }
 
@@ -156,7 +172,7 @@ h2{
 }
 
 #just-chillin{
-    background-color: lightgray;
+    background-color: #f6f6f6;
     height: 800;
 }
 
@@ -174,7 +190,11 @@ h2{
 
 .last-part-section{
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .bottom-section{
@@ -205,11 +225,11 @@ footer{
 .flex-column{
     display: flex;
     flex-direction: row;
+    padding-bottom: 10px;
 }
 
 
 .footer-actions{
-    flex-basis: calc(25% - 20px);
     flex-direction: column;
     align-items: stretch;
     padding-top: 50px;
@@ -219,11 +239,12 @@ footer{
 
 a{
     color: white;
+    text-decoration: none;
 }
 
 
 .title{
-    font-size: 1.7rem;
+    font-size: 0.9rem;
     color: mediumpurple;
     padding-top: 50px;
 }
@@ -242,15 +263,22 @@ a{
     padding-right: 160px;
 }
 
-hr{
-    margin-top: 20px;
-}
 
 .buttom-footer{
     background-color: mediumpurple;
     color: white; 
     border-radius: 20px;
     font-size: 0.9rem;
-    padding: 5px 15px;
+    padding: 10px 15px;
     text-align: center;
+}
+
+#logo-ita{
+    width: 30px;
+    padding-top: 15px;
+}
+
+h4{
+    font-size: 2.0rem;
+    line-height: 1.2rem;
 }
